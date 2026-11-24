@@ -221,3 +221,101 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Indiana Workforce Intelligence runtime files
+/orchestration/airflow/bridge/
+/orchestration/airflow/logs/
+/orchestration/airflow/agent_state/
+/logs/
+/data/raw/
+/data/staging/
+
+# Local database backups
+*.bak
+*.mdf
+*.ldf
+
+# Credentials and private keys
+*.pem
+*.key
+*.pfx
+*.p12
+.env.*
+!.env.example
+
+# Local installation packages
+/packages/
+# ==========================================
+# Indiana Workforce Intelligence Platform
+# ==========================================
+# Raw and intermediate data
+/data/processed/
+/data/exports/
+# Installation packages
+*.zip
+*.7z
+*.tar.gz
+# Runtime logs and temporary files
+*.tmp
+*.temp
+*.lock
+# Airflow runtime and execution bridge
+/orchestration/airflow/config/
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+# Environment configuration and credentials
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+# SQL Server database files and backups
+*.ndf
+*.trn
+*.bacpac
+*.dacpac
+# Python environments and cache
+*.py[cod]
+.venv/
+.conda/
+.ipynb_checkpoints/
+# Local runtime databases
+*.sqlite
+*.sqlite3
+*.db
+# R and Shiny runtime files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+rsconnect/
+# IDE and operating system files
+.vscode/
+.idea/
+.vs/
+Thumbs.db
+Desktop.ini
+.DS_Store
+# Temporary script backups
+*_backup.py
+*_backup.R
+*_backup.sql
+*_backup_*.R
+*_backup_*.py
+*_backup_*.sql
+*.old
+*.orig
+# Local diagnostic and assessment reports
+/etl_permission_assessment.txt
+/*_assessment.txt
+/*_diagnostics.txt
+/*_diagnostic.txt
+
+# Intermediate dashboard versions
+/dashboard/shiny/25_app.R
+/dashboard/shiny/25_app_v2.R
+
+# Generated documentation and metadata
+/database/scripts/warehouse_schema.csv
+/docs/data_quality/laus_data_quality.html
+

@@ -1,0 +1,4 @@
+﻿services:
+  airflow-worker:
+    volumes:
+      - ./bridge:/opt/airflow/bridge
