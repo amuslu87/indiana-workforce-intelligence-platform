@@ -4,7 +4,7 @@ GO
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
--- Run during a maintenance window. Revalidate and copy under one transaction.
+-- Run during a maintenance window.
 SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 BEGIN TRY
 BEGIN TRAN;
