@@ -319,3 +319,18 @@ Desktop.ini
 /database/scripts/warehouse_schema.csv
 /docs/data_quality/laus_data_quality.html
 
+
+# Recruitment development backups
+/dashboard/recruitment/backups/
+*.py.*_backup
+*.R.*_backup
+*.sql.*_backup
+*.py.v2_backup
+*.py.pre_compensation_backup
+
+# Superseded recruitment prototypes
+/scripts/etl/ingest_state_careers.py
+/scripts/etl/ingest_state_careers_v2.py
+/scripts/etl/ingest_state_careers_v4.py
+
+/database/scripts/30_— Verify databaseconstraints.sql
